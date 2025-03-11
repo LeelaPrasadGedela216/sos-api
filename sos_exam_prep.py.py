@@ -274,4 +274,4 @@ async def root():
 
 import uvicorn
     # Run the FastAPI app with uvicorn
-uvicorn.run(app, host="localhost", port=8006)
+uvicorn.run(app, host="0.0.0.0", port=8002)
